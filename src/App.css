@@ -2,17 +2,17 @@
   --page-bg: #FFEFCA;
   --panel: #ffffff;
   --panel-soft: #eaf5ff;
-  --navy: #086288;
+  --navy: #010736;
   --navy-2: #4D8DBA;
-  --primary: #086288;
+  --primary: #010736;
   --primary-2: #97D7FF;
   --gold: #4D8DBA;
   --gold-2: #97D7FF;
-  --accent: #086288;
+  --accent: #010736;
   --accent-2: #4D8DBA;
   --text: #0a2a3a;
   --muted: #4D8DBA;
-  --line: rgba(8, 98, 136, 0.15);
+  --line: rgba(1, 7, 54, 0.15);
   min-height: 100vh;
   background: var(--page-bg);
   color: var(--text);
@@ -59,7 +59,7 @@ button {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #97D7FF, #086288);
+  background: linear-gradient(135deg, #97D7FF, #010736);
   color: #fff;
   font-size: 1.3rem;
 }
@@ -69,7 +69,7 @@ button {
   flex-direction: column;
   line-height: 1;
   letter-spacing: 0.12em;
-  color: #086288;
+  color: #010736;
   font-size: 0.68rem;
 }
 
@@ -82,8 +82,8 @@ button {
   margin-left: auto;
   padding: 8px 16px;
   border-radius: 999px;
-  background: rgba(8, 98, 136, 0.12);
-  color: #086288;
+  background: rgba(1, 7, 54, 0.12);
+  color: #010736;
   font-size: 0.82rem;
   font-weight: 700;
 }
@@ -98,7 +98,7 @@ button {
 
 .nav-link {
   text-decoration: none;
-  color: #086288;
+  color: #010736;
   font-size: 0.84rem;
   font-weight: 700;
 }
@@ -148,7 +148,7 @@ button {
 .search-box {
   width: min(1120px, 100%);
   background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(8, 98, 136, 0.1);
+  border: 1px solid rgba(1, 7, 54, 0.1);
   border-radius: 20px;
   padding: 14px 16px 16px;
   box-shadow: 0 24px 40px rgba(9, 26, 41, 0.12);
@@ -162,9 +162,9 @@ button {
 }
 
 .trip-btn {
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
   background: #eaf5ff;
-  color: #086288;
+  color: #010736;
   border-radius: 999px;
   padding: 10px 18px;
   font-weight: 700;
@@ -172,8 +172,8 @@ button {
 
 .trip-btn.active {
   background: #fff;
-  color: #086288;
-  border-color: rgba(8, 98, 136, 0.18);
+  color: #010736;
+  border-color: rgba(1, 7, 54, 0.18);
 }
 
 .search-grid {
@@ -224,9 +224,9 @@ button {
 .search-btn {
   min-height: 48px;
   padding: 0 20px;
-  background: linear-gradient(135deg, #086288, #4D8DBA);
-  color: #086288;
-  border: 1px solid rgba(8, 98, 136, 0.15);
+  background: linear-gradient(135deg, #010736, #4D8DBA);
+  color: #010736;
+  border: 1px solid rgba(1, 7, 54, 0.15);
 }
 
 .stats-row {
@@ -241,7 +241,7 @@ button {
 
 .stat-card {
   background: rgba(174, 196, 212, 0.38);
-  border: 1px solid rgba(8, 98, 136, 0.1);
+  border: 1px solid rgba(1, 7, 54, 0.1);
   border-radius: 18px;
   padding: 18px 20px;
   display: flex;
@@ -262,7 +262,7 @@ button {
 
 .stat-card strong {
   display: block;
-  color: #086288;
+  color: #010736;
   font-size: 1.35rem;
 }
 
@@ -301,7 +301,7 @@ button {
 
 .promo-blue {
   background: linear-gradient(135deg, #eaf5ff, #ffffff 48%, #97D7FF);
-  color: #086288;
+  color: #010736;
 }
 
 .eyebrow {
@@ -328,7 +328,7 @@ button {
 .journey-copy h2,
 .cta-text h2 {
   margin: 0;
-  color: #086288;
+  color: #010736;
   font-size: clamp(1.8rem, 2.5vw, 2.5rem);
   line-height: 1.18;
   letter-spacing: -0.05em;
@@ -337,7 +337,7 @@ button {
 .promo-blue h2,
 .promo-blue p,
 .promo-blue .eyebrow {
-  color: #086288;
+  color: #010736;
 }
 
 .promo-blue p {
@@ -350,7 +350,7 @@ button {
 .ghost-btn {
   margin-top: 20px;
   padding: 12px 18px;
-  background: #086288;
+  background: #010736;
   color: #FFEFCA;
   border: none;
   align-self: flex-start;
@@ -358,7 +358,7 @@ button {
 
 .promo-light {
   background: linear-gradient(180deg, #97D7FF, #4D8DBA);
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
 }
 
 .promo-top {
@@ -370,8 +370,8 @@ button {
 
 .mini-badge {
   display: inline-block;
-  background: rgba(8, 98, 136, 0.12);
-  color: #086288;
+  background: rgba(1, 7, 54, 0.12);
+  color: #010736;
   padding: 8px 12px;
   border-radius: 999px;
   font-size: 0.72rem;
@@ -401,7 +401,7 @@ button {
 
 .promo-light h3 {
   margin: 18px 0 12px;
-  color: #086288;
+  color: #010736;
   font-size: 2rem;
 }
 
@@ -536,20 +536,20 @@ button {
 .primary-btn {
   margin-top: 22px;
   padding: 15px 26px;
-  background: #086288;
+  background: #010736;
   color: #FFEFCA;
   border: none;
 }
 
 .primary-btn.light {
   background: #FFEFCA;
-  color: #086288;
+  color: #010736;
 }
 
 .secondary-btn {
   padding: 15px 24px;
   border: 1px solid rgba(255, 239, 202, 0.5);
-  background: rgba(8, 98, 136, 0.15);
+  background: rgba(1, 7, 54, 0.15);
   color: #FFEFCA;
 }
 
@@ -590,18 +590,18 @@ button {
 }
 
 .testimonial-body strong {
-  color: #086288;
+  color: #010736;
 }
 
 .cta-banner {
-  background: linear-gradient(135deg, #086288, #4D8DBA);
+  background: linear-gradient(135deg, #010736, #4D8DBA);
   border-radius: 22px;
   padding: 28px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
 }
 
 .cta-text h2 {
@@ -641,8 +641,8 @@ button {
 
 .trip-tag {
   display: inline-block;
-  background: rgba(8, 98, 136, 0.12);
-  color: #086288;
+  background: rgba(1, 7, 54, 0.12);
+  color: #010736;
   border-radius: 999px;
   padding: 8px 12px;
   font-size: 0.72rem;
@@ -651,7 +651,7 @@ button {
 
 .plan-content h3 {
   margin: 14px 0 8px;
-  color: #086288;
+  color: #010736;
   font-size: 1.28rem;
 }
 
@@ -664,7 +664,7 @@ button {
 .card-btn {
   margin-top: 18px;
   padding: 12px 18px;
-  background: #086288;
+  background: #010736;
   color: #FFEFCA;
   border: none;
 }
@@ -698,8 +698,8 @@ button {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: rgba(8, 98, 136, 0.12);
-  color: #086288;
+  background: rgba(1, 7, 54, 0.12);
+  color: #010736;
   font-weight: 900;
   flex-shrink: 0;
 }
@@ -782,15 +782,15 @@ button {
   width: 34px;
   height: 34px;
   border-radius: 10px;
-  background: rgba(8, 98, 136, 0.12);
-  color: #086288;
+  background: rgba(1, 7, 54, 0.12);
+  color: #010736;
   font-weight: 900;
 }
 
 .step-card strong {
   display: block;
   margin-top: 14px;
-  color: #086288;
+  color: #010736;
   font-size: 1.2rem;
 }
 
@@ -813,7 +813,7 @@ button {
   background: linear-gradient(180deg, #eaf5ff, #FFEFCA);
   color: #0a2a3a;
   margin-top: 60px;
-  border-top: 1px solid rgba(8, 98, 136, 0.12);
+  border-top: 1px solid rgba(1, 7, 54, 0.12);
 }
 
 .footer-top {
@@ -834,7 +834,7 @@ button {
 
 .footer-col h4 {
   margin: 0 0 16px;
-  color: #086288;
+  color: #010736;
   font-size: 1.05rem;
 }
 
@@ -856,7 +856,7 @@ button {
 .footer-bottom {
   width: min(1180px, calc(100% - 56px));
   margin: 0 auto;
-  border-top: 1px solid rgba(8, 98, 136, 0.12);
+  border-top: 1px solid rgba(1, 7, 54, 0.12);
   padding: 18px 0 30px;
   display: flex;
   align-items: center;
@@ -996,7 +996,7 @@ button {
 }
 
 .dropdown-toggle-btn:hover {
-  background: rgba(8, 98, 136, 0.08);
+  background: rgba(1, 7, 54, 0.08);
 }
 
 .dropdown-arrow {
@@ -1012,7 +1012,7 @@ button {
   top: calc(100% + 8px);
   right: 0;
   background: #ffffff;
-  border: 1px solid rgba(8, 98, 136, 0.15);
+  border: 1px solid rgba(1, 7, 54, 0.15);
   box-shadow: 0 12px 32px rgba(10, 42, 58, 0.16);
   border-radius: 12px;
   width: 580px;
@@ -1060,7 +1060,7 @@ button {
 
 /* Page Hero Banner */
 .page-hero {
-  background: linear-gradient(135deg, #086288 0%, #064b68 60%, #032b3b 100%);
+  background: linear-gradient(135deg, #010736 0%, #020e47 60%, #032b3b 100%);
   color: #ffffff;
   padding: 48px 20px 42px;
   position: relative;
@@ -1191,7 +1191,7 @@ button {
   background: #ffffff;
   border-radius: 14px;
   padding: 22px 18px;
-  border: 1px solid rgba(8, 98, 136, 0.14);
+  border: 1px solid rgba(1, 7, 54, 0.14);
   box-shadow: 0 4px 18px rgba(10, 42, 58, 0.05);
   position: sticky;
   top: 90px;
@@ -1200,7 +1200,7 @@ button {
 }
 
 .sidebar-header {
-  border-bottom: 2px solid rgba(8, 98, 136, 0.1);
+  border-bottom: 2px solid rgba(1, 7, 54, 0.1);
   padding-bottom: 12px;
   margin-bottom: 14px;
 }
@@ -1262,7 +1262,7 @@ button {
   padding: 16px;
   background: linear-gradient(135deg, #eaf5ff 0%, #d6edff 100%);
   border-radius: 10px;
-  border: 1px solid rgba(8, 98, 136, 0.18);
+  border: 1px solid rgba(1, 7, 54, 0.18);
 }
 
 .sidebar-card h4 {
@@ -1293,7 +1293,7 @@ button {
 }
 
 .sidebar-call-btn:hover {
-  background: #064b68;
+  background: #020e47;
 }
 
 /* Policy Content Main Column */
@@ -1301,7 +1301,7 @@ button {
   background: #ffffff;
   border-radius: 14px;
   padding: 38px 40px;
-  border: 1px solid rgba(8, 98, 136, 0.14);
+  border: 1px solid rgba(1, 7, 54, 0.14);
   box-shadow: 0 4px 18px rgba(10, 42, 58, 0.05);
 }
 
@@ -1336,9 +1336,9 @@ button {
 .policy-section h2 {
   font-size: 1.55rem;
   font-weight: 800;
-  color: #086288;
+  color: #010736;
   margin: 0 0 14px;
-  border-bottom: 2px solid rgba(8, 98, 136, 0.1);
+  border-bottom: 2px solid rgba(1, 7, 54, 0.1);
   padding-bottom: 8px;
 }
 
@@ -1408,7 +1408,7 @@ button {
 .highlight-callout strong {
   display: block;
   font-size: 0.98rem;
-  color: #086288;
+  color: #010736;
   margin-bottom: 4px;
 }
 
@@ -1441,7 +1441,7 @@ button {
 .feature-card {
   padding: 20px;
   background: #f9fbfd;
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
   border-radius: 10px;
   transition: transform 0.15s, box-shadow 0.15s;
 }
@@ -1455,7 +1455,7 @@ button {
   width: 42px;
   height: 42px;
   border-radius: 8px;
-  background: rgba(8, 98, 136, 0.1);
+  background: rgba(1, 7, 54, 0.1);
   color: var(--primary);
   display: grid;
   place-items: center;
@@ -1465,7 +1465,7 @@ button {
 .feature-card h3 {
   font-size: 1.05rem;
   font-weight: 700;
-  color: #086288;
+  color: #010736;
   margin: 0 0 8px;
 }
 
@@ -1484,7 +1484,7 @@ button {
 
 /* Stats Metrics Banner */
 .stats-banner {
-  background: linear-gradient(135deg, #086288 0%, #064b68 100%);
+  background: linear-gradient(135deg, #010736 0%, #020e47 100%);
   border-radius: 12px;
   padding: 26px;
   color: #ffffff;
@@ -1537,7 +1537,7 @@ button {
   gap: 12px;
   padding: 12px 16px;
   background: #fbfcfe;
-  border: 1px solid rgba(8, 98, 136, 0.1);
+  border: 1px solid rgba(1, 7, 54, 0.1);
   border-radius: 8px;
 }
 
@@ -1550,7 +1550,7 @@ button {
 /* Tables */
 .table-responsive-card {
   overflow-x: auto;
-  border: 1px solid rgba(8, 98, 136, 0.14);
+  border: 1px solid rgba(1, 7, 54, 0.14);
   border-radius: 10px;
   margin: 18px 0;
 }
@@ -1563,7 +1563,7 @@ button {
 }
 
 .fee-table th {
-  background: #086288;
+  background: #010736;
   color: #ffffff;
   padding: 12px 16px;
   font-weight: 700;
@@ -1571,7 +1571,7 @@ button {
 
 .fee-table td {
   padding: 12px 16px;
-  border-bottom: 1px solid rgba(8, 98, 136, 0.1);
+  border-bottom: 1px solid rgba(1, 7, 54, 0.1);
   color: #1a3c4f;
   line-height: 1.5;
 }
@@ -1593,16 +1593,16 @@ button {
 .info-table th {
   width: 32%;
   padding: 10px 14px;
-  background: rgba(8, 98, 136, 0.06);
-  border-bottom: 1px solid rgba(8, 98, 136, 0.12);
-  color: #086288;
+  background: rgba(1, 7, 54, 0.06);
+  border-bottom: 1px solid rgba(1, 7, 54, 0.12);
+  color: #010736;
   font-weight: 700;
   text-align: left;
 }
 
 .info-table td {
   padding: 10px 14px;
-  border-bottom: 1px solid rgba(8, 98, 136, 0.12);
+  border-bottom: 1px solid rgba(1, 7, 54, 0.12);
   color: #1a3c4f;
 }
 
@@ -1616,7 +1616,7 @@ button {
   background: #f8fafc;
   padding: 18px;
   border-radius: 8px;
-  border: 1px solid rgba(8, 98, 136, 0.1);
+  border: 1px solid rgba(1, 7, 54, 0.1);
 }
 
 .contact-box-simple {
@@ -1661,7 +1661,7 @@ button {
 
 .step-content {
   background: #fbfcfe;
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
   border-radius: 10px;
   padding: 18px 22px;
   flex-grow: 1;
@@ -1676,14 +1676,14 @@ button {
 
 .step-header h3 {
   font-size: 1.1rem;
-  color: #086288;
+  color: #010736;
   margin: 0;
 }
 
 /* Split Billing Visual */
 .billing-example-card {
   background: #f7fafc;
-  border: 1px dashed rgba(8, 98, 136, 0.3);
+  border: 1px dashed rgba(1, 7, 54, 0.3);
   border-radius: 10px;
   padding: 22px;
   margin: 18px 0;
@@ -1700,7 +1700,7 @@ button {
 
 .split-box {
   background: #ffffff;
-  border: 1px solid rgba(8, 98, 136, 0.16);
+  border: 1px solid rgba(1, 7, 54, 0.16);
   border-radius: 8px;
   padding: 16px;
   flex: 1;
@@ -1725,7 +1725,7 @@ button {
 .split-box h4 {
   font-size: 0.88rem;
   font-weight: 700;
-  color: #086288;
+  color: #010736;
   margin: 0 0 6px;
 }
 
@@ -1759,11 +1759,11 @@ button {
 .method-chip {
   padding: 8px 18px;
   background: #ffffff;
-  border: 1px solid rgba(8, 98, 136, 0.2);
+  border: 1px solid rgba(1, 7, 54, 0.2);
   border-radius: 999px;
   font-weight: 700;
   font-size: 0.85rem;
-  color: #086288;
+  color: #010736;
   box-shadow: 0 2px 6px rgba(10, 42, 58, 0.04);
 }
 
@@ -1780,14 +1780,14 @@ button {
   gap: 12px;
   padding: 16px;
   background: #fbfcfe;
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
   border-radius: 8px;
 }
 
 .security-item strong {
   display: block;
   font-size: 0.92rem;
-  color: #086288;
+  color: #010736;
   margin-bottom: 4px;
 }
 
@@ -1804,7 +1804,7 @@ button {
   align-items: center;
   gap: 10px;
   background: #ffffff;
-  border: 1.5px solid rgba(8, 98, 136, 0.25);
+  border: 1.5px solid rgba(1, 7, 54, 0.25);
   border-radius: 10px;
   padding: 10px 16px;
   margin-bottom: 20px;
@@ -1819,7 +1819,7 @@ button {
 }
 
 .clear-search-btn {
-  background: rgba(8, 98, 136, 0.1);
+  background: rgba(1, 7, 54, 0.1);
   border: none;
   padding: 4px 10px;
   border-radius: 4px;
@@ -1842,7 +1842,7 @@ button {
   gap: 6px;
   padding: 8px 16px;
   border-radius: 999px;
-  border: 1px solid rgba(8, 98, 136, 0.2);
+  border: 1px solid rgba(1, 7, 54, 0.2);
   background: #ffffff;
   font-size: 0.84rem;
   font-weight: 600;
@@ -1876,7 +1876,7 @@ button {
 .faq-category-title h3 {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #086288;
+  color: #010736;
   margin: 0;
 }
 
@@ -1887,7 +1887,7 @@ button {
 }
 
 .faq-accordion-item {
-  border: 1px solid rgba(8, 98, 136, 0.15);
+  border: 1px solid rgba(1, 7, 54, 0.15);
   border-radius: 8px;
   overflow: hidden;
   background: #ffffff;
@@ -1896,7 +1896,7 @@ button {
 
 .faq-accordion-item.open {
   border-color: var(--primary);
-  box-shadow: 0 4px 12px rgba(8, 98, 136, 0.08);
+  box-shadow: 0 4px 12px rgba(1, 7, 54, 0.08);
 }
 
 .faq-question-btn {
@@ -1933,7 +1933,7 @@ button {
 .faq-answer-pane {
   padding: 0 20px 18px;
   background: #ffffff;
-  border-top: 1px solid rgba(8, 98, 136, 0.08);
+  border-top: 1px solid rgba(1, 7, 54, 0.08);
 }
 
 .faq-answer-pane p {
@@ -1952,7 +1952,7 @@ button {
   background: #eaf5ff;
   border-radius: 12px;
   padding: 24px 28px;
-  border: 1px solid rgba(8, 98, 136, 0.18);
+  border: 1px solid rgba(1, 7, 54, 0.18);
 }
 
 .support-card-inner {
@@ -1965,7 +1965,7 @@ button {
 
 .support-card-inner h3 {
   font-size: 1.15rem;
-  color: #086288;
+  color: #010736;
   margin: 0 0 6px;
 }
 
@@ -2020,7 +2020,7 @@ button {
 
 .contact-card {
   background: #fbfcfe;
-  border: 1px solid rgba(8, 98, 136, 0.14);
+  border: 1px solid rgba(1, 7, 54, 0.14);
   border-radius: 12px;
   padding: 22px;
   text-align: center;
@@ -2030,7 +2030,7 @@ button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(8, 98, 136, 0.12);
+  background: rgba(1, 7, 54, 0.12);
   color: var(--primary);
   display: grid;
   place-items: center;
@@ -2039,7 +2039,7 @@ button {
 
 .contact-card h3 {
   font-size: 1.1rem;
-  color: #086288;
+  color: #010736;
   margin: 0 0 4px;
 }
 
@@ -2060,7 +2060,7 @@ button {
 
 .contact-link.highlight {
   font-size: 1.15rem;
-  color: #086288;
+  color: #010736;
 }
 
 .office-address {
@@ -2084,7 +2084,7 @@ button {
 
 .form-container-card {
   background: #fdfefe;
-  border: 1px solid rgba(8, 98, 136, 0.16);
+  border: 1px solid rgba(1, 7, 54, 0.16);
   border-radius: 12px;
   padding: 32px;
 }
@@ -2124,7 +2124,7 @@ button {
 .form-group select,
 .form-group textarea {
   padding: 10px 14px;
-  border: 1.5px solid rgba(8, 98, 136, 0.22);
+  border: 1.5px solid rgba(1, 7, 54, 0.22);
   border-radius: 8px;
   font-size: 0.92rem;
   color: #1a3c4f;
@@ -2137,7 +2137,7 @@ button {
 .form-group select:focus,
 .form-group textarea:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(8, 98, 136, 0.12);
+  box-shadow: 0 0 0 3px rgba(1, 7, 54, 0.12);
 }
 
 .submit-form-btn {
@@ -2158,7 +2158,7 @@ button {
 }
 
 .submit-form-btn:hover {
-  background: #064b68;
+  background: #020e47;
 }
 
 .form-success-box {
@@ -2168,7 +2168,7 @@ button {
 
 .form-success-box h3 {
   font-size: 1.4rem;
-  color: #086288;
+  color: #010736;
   margin: 14px 0 8px;
 }
 
@@ -2188,7 +2188,7 @@ button {
 
 .criteria-card {
   background: #fbfcfe;
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
   border-radius: 8px;
   padding: 16px;
 }
@@ -2196,7 +2196,7 @@ button {
 .criteria-card h4 {
   font-size: 0.92rem;
   font-weight: 700;
-  color: #086288;
+  color: #010736;
   margin: 0 0 6px;
 }
 
@@ -2215,7 +2215,7 @@ button {
 }
 
 .cabin-card {
-  border: 1px solid rgba(8, 98, 136, 0.14);
+  border: 1px solid rgba(1, 7, 54, 0.14);
   border-radius: 12px;
   padding: 22px;
   background: #fbfcfe;
@@ -2234,13 +2234,13 @@ button {
   text-transform: uppercase;
   padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(8, 98, 136, 0.1);
+  background: rgba(1, 7, 54, 0.1);
   color: var(--primary);
 }
 
 .cabin-card h3 {
   font-size: 1.15rem;
-  color: #086288;
+  color: #010736;
   margin: 0;
 }
 
@@ -2271,7 +2271,7 @@ button {
 
 .liability-box {
   background: #f7fafc;
-  border: 1px solid rgba(8, 98, 136, 0.14);
+  border: 1px solid rgba(1, 7, 54, 0.14);
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -2281,12 +2281,12 @@ button {
   font-size: 0.76rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #086288;
+  color: #010736;
 }
 
 .liability-box h3 {
   font-size: 1.35rem;
-  color: #086288;
+  color: #010736;
   margin: 8px 0 8px;
 }
 
@@ -2306,14 +2306,14 @@ button {
 
 .fare-rule-box {
   background: #fbfcfe;
-  border: 1px solid rgba(8, 98, 136, 0.14);
+  border: 1px solid rgba(1, 7, 54, 0.14);
   border-radius: 8px;
   padding: 16px;
 }
 
 .fare-rule-box h4 {
   font-size: 0.94rem;
-  color: #086288;
+  color: #010736;
   margin: 0 0 6px;
 }
 
@@ -2333,14 +2333,14 @@ button {
 
 .category-card {
   background: #fbfcfe;
-  border: 1px solid rgba(8, 98, 136, 0.12);
+  border: 1px solid rgba(1, 7, 54, 0.12);
   border-radius: 8px;
   padding: 16px;
 }
 
 .category-card h4 {
   font-size: 0.94rem;
-  color: #086288;
+  color: #010736;
   margin: 0 0 6px;
 }
 
@@ -2359,7 +2359,7 @@ button {
 
 /* Footer Enhancements */
 .footer-trust-strip {
-  background: #054865;
+  background: #010526;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 22px 20px;
 }
@@ -2463,9 +2463,9 @@ button {
   width: min(1240px, calc(100% - 44px));
   margin: 0 auto 24px;
   padding: 16px 20px;
-  background: rgba(8, 98, 136, 0.05);
+  background: rgba(1, 7, 54, 0.05);
   border-radius: 8px;
-  border: 1px solid rgba(8, 98, 136, 0.1);
+  border: 1px solid rgba(1, 7, 54, 0.1);
 }
 
 .footer-disclaimer-box p {
