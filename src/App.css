@@ -5,9 +5,9 @@
   --navy: #010736;
   --navy-2: #4D8DBA;
   --primary: #010736;
-  --primary-2: #97D7FF;
+  --primary-2: #010736;
   --gold: #4D8DBA;
-  --gold-2: #97D7FF;
+  --gold-2: #010736;
   --accent: #010736;
   --accent-2: #4D8DBA;
   --text: #0a2a3a;
@@ -59,7 +59,7 @@ button {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #97D7FF, #010736);
+  background: linear-gradient(135deg, #010736, #010736);
   color: #fff;
   font-size: 1.3rem;
 }
@@ -135,7 +135,7 @@ button {
   line-height: 1.08;
   letter-spacing: -0.06em;
   font-weight: 800;
-  color: #97D7FF;
+  color: #010736;
 }
 
 .hero-copy p {
@@ -256,7 +256,7 @@ button {
   border-radius: 16px;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #97D7FF, #4D8DBA);
+  background: linear-gradient(135deg, #010736, #4D8DBA);
   font-size: 1.5rem;
 }
 
@@ -300,7 +300,7 @@ button {
 }
 
 .promo-blue {
-  background: linear-gradient(135deg, #eaf5ff, #ffffff 48%, #97D7FF);
+  background: linear-gradient(135deg, #eaf5ff, #ffffff 48%, #010736);
   color: #010736;
 }
 
@@ -357,7 +357,7 @@ button {
 }
 
 .promo-light {
-  background: linear-gradient(180deg, #97D7FF, #4D8DBA);
+  background: linear-gradient(180deg, #010736, #4D8DBA);
   border: 1px solid rgba(1, 7, 54, 0.12);
 }
 
@@ -1095,7 +1095,7 @@ button {
 }
 
 .breadcrumbs a {
-  color: #97D7FF;
+  color: #010736;
   text-decoration: none;
   transition: color 0.15s;
 }
@@ -1118,7 +1118,7 @@ button {
   display: inline-block;
   padding: 4px 12px;
   background: rgba(151, 215, 255, 0.2);
-  color: #97D7FF;
+  color: #010736;
   border-radius: 999px;
   font-size: 0.75rem;
   font-weight: 700;
@@ -1166,7 +1166,7 @@ button {
 
 .update-badge {
   background: rgba(151, 215, 255, 0.18);
-  color: #97D7FF;
+  color: #010736;
   border-color: rgba(151, 215, 255, 0.35);
 }
 
@@ -1514,7 +1514,7 @@ button {
   display: block;
   font-size: 1.7rem;
   font-weight: 800;
-  color: #97D7FF;
+  color: #010736;
 }
 
 .metric-label {
@@ -2380,7 +2380,7 @@ button {
 }
 
 .trust-icon {
-  color: #97D7FF;
+  color: #010736;
   flex-shrink: 0;
 }
 
