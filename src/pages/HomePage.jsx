@@ -5,7 +5,7 @@ import { Plane, Search, ShieldCheck, Clock, Headphones, Check, Sparkles, ArrowRi
 
 const destinations = [
   { city: 'Dubai', price: '$120', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80' },
-  { city: 'Bali', price: '$180', image: 'https://images.unsplash.com/photo-1537996194471-2f70b4d5f3c8?auto=format&fit=crop&w=900&q=80' },
+  { city: 'Bali', price: '$180', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80' },
   { city: 'New York', price: '$220', image: 'https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?auto=format&fit=crop&w=900&q=80' },
   { city: 'London', price: '$170', image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=80' },
   { city: 'Paris', price: '$190', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80' },
