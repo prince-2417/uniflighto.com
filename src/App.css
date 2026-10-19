@@ -224,9 +224,17 @@ button {
 .search-btn {
   min-height: 48px;
   padding: 0 20px;
-  background: linear-gradient(135deg, #010736, #4D8DBA);
-  color: #010736;
-  border: 1px solid rgba(1, 7, 54, 0.15);
+  background: linear-gradient(135deg, #010736 0%, #03144a 100%);
+  color: #ffffff;
+  font-weight: 700;
+  border: 1px solid rgba(151, 215, 255, 0.25);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.search-btn:hover {
+  background: #03144a;
+  box-shadow: 0 6px 18px rgba(1, 7, 54, 0.3);
 }
 
 .stats-row {
@@ -630,19 +638,25 @@ button {
 }
 
 .cta-banner {
-  background: linear-gradient(135deg, #010736, #4D8DBA);
+  background: linear-gradient(135deg, #010736 0%, #03144a 100%);
   border-radius: 22px;
-  padding: 28px 30px;
+  padding: 34px 36px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  border: 1px solid rgba(1, 7, 54, 0.12);
+  border: 1px solid rgba(151, 215, 255, 0.25);
+  box-shadow: 0 18px 32px rgba(1, 7, 54, 0.2);
 }
 
 .cta-text h2 {
   max-width: 680px;
-  color: #FFEFCA;
+  color: #ffffff;
+  margin: 0;
+}
+
+.cta-text .eyebrow {
+  color: #97D7FF;
 }
 
 .cta-actions {
@@ -652,6 +666,41 @@ button {
   flex-wrap: wrap;
 }
 
+.cta-actions .primary-btn.light {
+  background: #FFEFCA;
+  color: #010736;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 14px 28px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta-actions .primary-btn.light:hover {
+  background: #ffffff;
+  color: #010736;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.cta-actions .secondary-btn {
+  background: rgba(1, 7, 54, 0.5);
+  color: #ffffff;
+  border: 1px solid rgba(151, 215, 255, 0.4);
+  border-radius: 999px;
+  font-weight: 800;
+  padding: 14px 28px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta-actions .secondary-btn:hover {
+  background: rgba(151, 215, 255, 0.2);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
 .plan-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -659,50 +708,84 @@ button {
 }
 
 .plan-card {
-  background: #eaf5ff;
+  background: linear-gradient(135deg, #010736 0%, #03144a 100%);
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 18px 28px rgba(10, 27, 45, 0.08);
+  border: 1px solid rgba(151, 215, 255, 0.25);
+  box-shadow: 0 18px 28px rgba(1, 7, 54, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .plan-card img {
   width: 100%;
-  height: 190px;
+  height: 200px;
   object-fit: cover;
+  display: block;
 }
 
 .plan-content {
-  padding: 16px 16px 18px;
+  padding: 22px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .trip-tag {
   display: inline-block;
-  background: rgba(1, 7, 54, 0.12);
-  color: #010736;
+  align-self: flex-start;
+  background: rgba(151, 215, 255, 0.18);
+  color: #97D7FF;
+  border: 1px solid rgba(151, 215, 255, 0.35);
   border-radius: 999px;
-  padding: 8px 12px;
-  font-size: 0.72rem;
-  font-weight: 900;
+  padding: 6px 14px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
 }
 
 .plan-content h3 {
-  margin: 14px 0 8px;
-  color: #010736;
-  font-size: 1.28rem;
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.35;
 }
 
 .plan-content p {
-  margin: 0;
-  color: #60788e;
-  line-height: 1.7;
+  margin: 0 0 20px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+  font-size: 0.92rem;
+  flex-grow: 1;
 }
 
 .card-btn {
-  margin-top: 18px;
-  padding: 12px 18px;
-  background: #010736;
-  color: #FFEFCA;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 12px 26px;
+  background: #FFEFCA;
+  color: #010736 !important;
+  font-weight: 800;
+  font-size: 0.9rem;
+  border-radius: 999px;
   border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-btn:hover {
+  background: #ffffff;
+  color: #010736 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
 
 .insights-block {
