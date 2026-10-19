@@ -271,15 +271,17 @@ export default function HomePage() {
         </div>
 
         <div className="insight-panel">
-          <span className="mini-badge">Top pick</span>
-          <h3>Essential Tips for Booking International Flights</h3>
-          <p>
-            Learn how to save more on baggage, timing, and route planning. Our licensed travel agents
-            curate route options that minimize layovers while maximizing savings.
-          </p>
-          <Link to="/fare-disclosure-policy" className="card-btn" style={{ textDecoration: 'none', marginTop: '12px', display: 'inline-block' }}>
+          <Link to="/fare-disclosure-policy" className="card-btn insight-btn">
             Read Fare Rules & Guide
           </Link>
+          <div className="insight-content">
+            <span className="mini-badge">Top pick</span>
+            <h3>Essential Tips for Booking International Flights</h3>
+            <p>
+              Learn how to save more on baggage, timing, and route planning. Our licensed travel agents
+              curate route options that minimize layovers while maximizing savings.
+            </p>
+          </div>
         </div>
       </section>
 
