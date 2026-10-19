@@ -2,12 +2,6 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Plane, Search, ShieldCheck, Clock, Headphones, Check, Sparkles, ArrowRight } from 'lucide-react'
 
-const stats = [
-  { icon: '✈', value: '4,200+', label: 'Flights Booked' },
-  { icon: '🧳', value: '150k+', label: 'Happy Travelers' },
-  { icon: '🏨', value: '2,800', label: 'Hotel Partners' },
-  { icon: '💬', value: '24/7', label: 'Live Travel Experts' },
-]
 
 const destinations = [
   { city: 'Dubai', price: '$120', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80' },
@@ -127,18 +121,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Row */}
-      <section className="stats-row">
-        {stats.map((item) => (
-          <div key={item.label} className="stat-card">
-            <div className="stat-icon">{item.icon}</div>
-            <div>
-              <strong>{item.value}</strong>
-              <small>{item.label}</small>
-            </div>
-          </div>
-        ))}
-      </section>
 
       {/* Intro Row */}
       <section className="intro-row">
