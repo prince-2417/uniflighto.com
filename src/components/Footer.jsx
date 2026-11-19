@@ -116,7 +116,9 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 Uniflighto (Uniflighto Travel LLC). All rights reserved.</span>
+        <span className="footer-copyright">
+          © 2026 Uniflighto Travel LLC. All rights reserved.
+        </span>
         <div className="footer-bottom-links">
           <Link to="/privacy-policy">Privacy</Link>
           <span>•</span>

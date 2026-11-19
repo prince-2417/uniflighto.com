@@ -3227,6 +3227,80 @@ button {
   .footer-top { padding-inline: 0; }
 }
 
+@media (max-width: 640px) {
+  .footer-trust-strip {
+    padding: 18px 14px;
+  }
+
+  .trust-strip-inner {
+    gap: 10px;
+  }
+
+  .trust-item {
+    min-width: 0;
+  }
+
+  .trust-item small {
+    line-height: 1.45;
+  }
+
+  .footer-top {
+    width: calc(100% - 28px);
+  }
+
+  .footer-brand-wrap {
+    align-items: center;
+  }
+
+  .footer-brand-wrap .brand-name span {
+    display: block;
+  }
+
+  .footer-brand-wrap .brand-name strong {
+    font-size: 1.28rem;
+  }
+
+  .footer-contact-mini p {
+    min-width: 0;
+    align-items: flex-start;
+  }
+
+  .footer-contact-mini svg {
+    margin-top: 3px;
+  }
+
+  .footer-disclaimer-box {
+    width: calc(100% - 28px);
+  }
+
+  .footer-disclaimer-box p {
+    line-height: 1.55;
+  }
+
+  .footer-bottom {
+    width: calc(100% - 28px);
+    padding: 20px 0 26px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .footer-copyright {
+    max-width: 100%;
+    line-height: 1.5;
+    white-space: normal;
+  }
+
+  .footer-bottom-links {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px 8px;
+  }
+}
+
 /* Tripyzo-inspired public page templates */
 .reference-page {
   background: #f7f5ef;
