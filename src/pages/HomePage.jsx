@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Plane, Search, ShieldCheck, Clock, Headphones, Check, Sparkles, ArrowRight } from 'lucide-react'
+import { Plane, ShieldCheck, Clock, Headphones, Sparkles, ArrowRight, BadgeCheck, Globe2 } from 'lucide-react'
 
 
 const destinations = [
-  { city: 'Dubai', price: '$120', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80' },
-  { city: 'Bali', price: '$180', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80' },
-  { city: 'New York', price: '$220', image: 'https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?auto=format&fit=crop&w=900&q=80' },
-  { city: 'London', price: '$170', image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=80' },
-  { city: 'Paris', price: '$190', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80' },
+  { city: 'Dubai', price: '$120', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=82' },
+  { city: 'Bali', price: '$180', image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=82' },
+  { city: 'New York', price: '$220', image: 'https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?auto=format&fit=crop&w=900&q=82' },
+  { city: 'London', price: '$170', image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=82' },
+  { city: 'Paris', price: '$190', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=82' },
 ]
 
 const guideBoxes = [
@@ -39,48 +39,48 @@ export default function HomePage() {
 
   return (
     <main>
-      {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-inner">
           <div className="hero-copy">
-            <div className="eyebrow-pill">
-              <Sparkles size={14} /> Uniflighto Global Flight Deals
-            </div>
-            <h1>Book Affordable Flights Worldwide</h1>
+            <div className="hero-eyebrow"><Sparkles size={15} /> Curated global flight deals</div>
+            <h1>Your journey,<br /><em>beautifully planned.</em></h1>
             <p>
-              Compare fares from over 400 top airlines and book with complete confidence.
-              Fast, secure, and hassle-free flight booking with 24/7 travel desk support.
+              Discover exceptional fares, handpicked routes, and personal support
+              from takeoff to touchdown.
             </p>
           </div>
 
-          <div className="search-box">
-            <div className="trip-selector">
-              {['Round Trip', 'One Way', 'Multi City'].map((type) => (
-                <button
-                  key={type}
-                  type="button"
-                  className={`trip-btn ${tripType === type ? 'active' : ''}`}
-                  onClick={() => setTripType(type)}
-                >
-                  {type}
-                </button>
-              ))}
+          <div className="search-box" role="search" aria-label="Flight search">
+            <div className="booking-heading">
+              <div>
+                <span>Find a flight</span>
+                <strong>Where would you like to go?</strong>
+              </div>
+              <div className="trip-selector">
+                {['Round Trip', 'One Way', 'Multi City'].map((type) => (
+                  <button key={type} type="button" className={`trip-btn ${tripType === type ? 'active' : ''}`} onClick={() => setTripType(type)}>
+                    {type}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="search-grid">
               <label>
-                <span>From</span>
+                <span><Plane size={13} /> From</span>
                 <input
                   type="text"
+                  aria-label="Departure city or airport"
                   value={fromCity}
                   onChange={(e) => setFromCity(e.target.value)}
                   placeholder="Origin City or Airport"
                 />
               </label>
               <label>
-                <span>To</span>
+                <span><Globe2 size={13} /> To</span>
                 <input
                   type="text"
+                  aria-label="Destination city or airport"
                   value={toCity}
                   onChange={(e) => setToCity(e.target.value)}
                   placeholder="Destination City or Airport"
@@ -90,6 +90,7 @@ export default function HomePage() {
                 <span>Departure</span>
                 <input
                   type="date"
+                  aria-label="Departure date"
                   value={departureDate}
                   onChange={(e) => setDepartureDate(e.target.value)}
                 />
@@ -99,6 +100,7 @@ export default function HomePage() {
                   <span>Return</span>
                   <input
                     type="date"
+                    aria-label="Return date"
                     value={returnDate}
                     onChange={(e) => setReturnDate(e.target.value)}
                   />
@@ -108,57 +110,31 @@ export default function HomePage() {
                 <span>Travelers / Class</span>
                 <input
                   type="text"
+                  aria-label="Travelers and cabin class"
                   value={travelers}
                   onChange={(e) => setTravelers(e.target.value)}
                   placeholder="Travelers"
                 />
               </label>
               <a href="tel:+13477771900" className="search-btn text-center" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                Search Flights
+                Search flights
               </a>
             </div>
           </div>
         </div>
       </section>
 
-
-      {/* Intro Row */}
-      <section className="intro-row">
-        <div className="promo-card promo-blue">
-          <span className="eyebrow">Best flight prices</span>
-          <h2>Book Flights at Great Prices</h2>
-          <p>
-            Find low-fare flights with flexible dates, trusted airlines, and quick
-            booking support from our 24/7 dedicated reservation specialists.
-          </p>
-          <a href="tel:+13477771900" className="ghost-btn" style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}>
-            Call for Unpublished Fares
-          </a>
-        </div>
-
-        <div className="promo-card promo-light">
-          <div className="promo-top">
-            <span className="mini-badge">Trusted by travelers</span>
-            <div className="percent-ring"><span>100%</span></div>
-          </div>
-          <h3>Travel with Complete Confidence</h3>
-          <p>
-            Secure 256-bit encrypted bookings, 100% transparent pricing without hidden fees,
-            and expert customer care before, during, and after your trip.
-          </p>
-          <div style={{ marginTop: '14px' }}>
-            <Link to="/how-we-book-and-issue-airline-tickets" className="card-link-subtle">
-              Learn how we book tickets <ArrowRight size={14} style={{ verticalAlign: 'middle' }} />
-            </Link>
-          </div>
-        </div>
+      <section className="trust-row" aria-label="Service highlights">
+        <div><ShieldCheck size={22} /><span><strong>Secure bookings</strong><small>Protected reservations</small></span></div>
+        <div><Clock size={22} /><span><strong>Always available</strong><small>24/7 travel support</small></span></div>
+        <div><BadgeCheck size={22} /><span><strong>Best fare promise</strong><small>Transparent pricing</small></span></div>
+        <div><Headphones size={22} /><span><strong>Real people</strong><small>Personal assistance</small></span></div>
       </section>
 
-      {/* Featured Destinations */}
-      <section className="destination-section">
+      <section className="destination-section" id="featured-routes">
         <div className="section-header">
           <span className="eyebrow eyebrow-dark">Featured routes</span>
-          <h2>Discover Great Flight Deals to Destinations Around the World</h2>
+          <h2>Destinations worth the journey</h2>
         </div>
 
         <div className="destination-grid">
@@ -178,18 +154,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Showcase Section */}
       <section className="showcase-section no-image">
         <div className="showcase-copy">
-          <span className="eyebrow eyebrow-dark">Travel smarter with Uniflighto</span>
-          <h2>Discover amazing flight options and competitive fares.</h2>
+          <span className="eyebrow eyebrow-dark">Travel, thoughtfully</span>
+          <h2>Exceptional service.<br />Remarkable value.</h2>
           <p>
-            Plan your trip with real-time pricing, flexible airline choices, and a
-            booking experience designed around your schedule and budget.
+            From complex itineraries to last-minute escapes, our specialists find
+            the right route at the right fare.
           </p>
           <a href="tel:+13477771900" className="primary-btn" style={{ textDecoration: 'none', display: 'inline-block' }}>
-            Find Your Flight: +1 347-777-1900
+            Speak with a specialist <ArrowRight size={16} />
           </a>
+        </div>
+        <div className="showcase-art" aria-hidden="true">
+          <div className="showcase-photo" />
+          <div className="showcase-stat"><strong>400+</strong><span>airlines to compare</span></div>
         </div>
       </section>
 
